@@ -532,19 +532,9 @@ namespace PoleTrojkata
                     Area = 2 * R * R * sinA * sinB * sinC;
                     break;
                 case 11:
-                    /*if (a + b <= c)
-                    {
-                        MessageBox.Show("Błąd: Pamiętaj o tym, że a + b > c");
-                        return 0;
-                    }*/
                     Area = r * p;
                     break;
                 case 12:
-                    /*if (a + b <= c)
-                    {
-                        MessageBox.Show("Błąd: Pamiętaj o tym, że a + b > c");
-                        return 0;
-                    }*/
                     Area = Math.Sqrt(p * (p - a) * (p - b) * (p - c));
                     break;
                 default:
